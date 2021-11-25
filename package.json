@@ -1,5 +1,5 @@
 {
-  "name": "@jdesboeufs/tileserver-gl",
+  "name": "@etalab/tileserver-gl",
   "version": "3.1.1-2",
   "publishConfig": {
     "access": "public"
@@ -9,14 +9,14 @@
   "bin": "src/main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jdesboeufs/tileserver-gl-light.git"
+    "url": "https://github.com/etalab/tileserver-gl-light.git"
   },
   "license": "BSD-2-Clause",
   "engines": {
     "node": ">=10"
   },
   "scripts": {
-    "test": "mocha test/**.js --timeout 10000",
+    "test": "echo No tests",
     "docker": "docker build -f Dockerfile . && docker run --rm -i -p 8080:80 $(docker build -q .)"
   },
   "dependencies": {
